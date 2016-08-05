@@ -1,0 +1,22 @@
+{
+  "name": "nodest-bootstrap-web",
+  "version": "0.1.0",
+  "description": "Starter project for a Nodest web app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --use_strict --harmony index.js",
+    "production": "export NODE_ENV=production; node --use_strict --harmony index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dave Weaver (http://daveweaver.net)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davideweaver/nodest-bootstrap-web.git"
+  },
+  "dependencies": {
+    "koa-body-parser": "^1.1.2",
+    "koa-static-folder": "^0.1.6",
+    "nodest": "^0.1.8"
+  }
+}

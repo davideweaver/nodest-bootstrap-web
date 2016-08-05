@@ -1,0 +1,8 @@
+{
+	"server": {
+		"port": 3002,
+		"verbose": true,
+		"cacheTemplates": false,
+		"exposeErrors": true
+	}
+}
